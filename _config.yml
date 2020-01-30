@@ -1,3 +1,11 @@
 theme: jekyll-theme-tactile
 collections:
   rfcs:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "rfcs"
+    values:
+      layout: "default"
