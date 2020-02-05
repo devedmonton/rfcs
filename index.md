@@ -6,5 +6,5 @@ These RFCs are new to the society and undergoing development and review. They ha
 
 {% assign draft_rfcs = site.rfcs | where: "status", "draft" %}
 {% for rfc in draft_rfcs %}
- * [RFC-{{ rfc.RFC }}: {{ rfc.title }}]({{ rfc.url }})
+ * [RFC-{{ rfc.RFC }}: {{ rfc.title }}]({{ rfc.url | relative_url }})
 {% endfor %}
