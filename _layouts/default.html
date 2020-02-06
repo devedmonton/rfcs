@@ -13,7 +13,7 @@
         <h2>{{ page.description | default: site.description }}</h2>
     </header>
     <nav>
-        <a href="/">Home</a>
+        <a href="{{ '/' | relative_url }} ">Home</a>
     </nav>
     <section id="main_content">
         {{ content }}
