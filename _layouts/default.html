@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/print.css' | relative_url }}" media="print">
+  </head>
+
+  <body>
+    <header>
+        <h1>{{ page.title | default: site.title }}</h1>
+        <h2>{{ page.description | default: site.description }}</h2>
+    </header>
+    <nav>
+        <a href="{{ '/' | relative_url }} ">Home</a>
+    </nav>
+    <section id="main_content">
+        {{ content }}
+    </section>
+    <footer>
+        Footer
+    </footer>
+  </body>
+</html>
