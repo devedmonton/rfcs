@@ -7,4 +7,4 @@ defaults:
       path: ""
       type: "rfcs"
     values:
-      layout: "default"
+      layout: "rfc"
